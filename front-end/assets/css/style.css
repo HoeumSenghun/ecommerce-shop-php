@@ -1,0 +1,309 @@
+/* 
+* Custom CSS for Bun Deth Eco Shop
+* Extends Bootstrap 5 styles
+*/
+
+/* General */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Navigation */
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* Modern Header Styles */
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-menu {
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.dropdown-menu-lg {
+    min-width: 320px;
+}
+
+.dropdown-header {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6c757d;
+}
+
+.navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.navbar .form-control {
+    border-radius: 50rem 0 0 50rem;
+    padding-left: 1.25rem;
+}
+
+.navbar .form-control + .btn {
+    border-radius: 0 50rem 50rem 0;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        padding: 1rem 0;
+    }
+    
+    .navbar-nav .dropdown-menu {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+/* Product Cards */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Product Details */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: contain;
+}
+
+/* Categories */
+.category-card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.category-card:hover {
+    color: inherit;
+}
+
+/* Cart */
+.cart-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Profile */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Order Status Badges */
+.badge {
+    font-size: 0.9em;
+    padding: 0.5em 0.8em;
+}
+
+/* Form Controls */
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Buttons */
+.btn {
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Alert Messages */
+.alert {
+    margin-bottom: 1.5rem;
+}
+
+/* Loading Spinner */
+.spinner-border {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-width: 0.2em;
+}
+
+/* Responsive Images */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Price Display */
+.price {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+/* Stock Status */
+.stock-status {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.in-stock {
+    color: #28a745;
+}
+
+.out-of-stock {
+    color: #dc3545;
+}
+
+/* Dietary Tags */
+.dietary-tag {
+    background-color: #28a745;
+    color: white;
+    padding: 0.25em 0.6em;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background-color: transparent;
+    padding: 0.75rem 0;
+}
+
+/* Pagination */
+.pagination {
+    margin-bottom: 0;
+}
+
+.page-link {
+    color: #007bff;
+}
+
+.page-link:hover {
+    color: #0056b3;
+}
+
+/* Modal */
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+}
+
+/* Tables */
+.table th {
+    font-weight: 600;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+    
+    .carousel-item img {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 2rem 0;
+    }
+    
+    .card-img-top {
+        height: 120px;
+    }
+}
+
+/* Cancel Order Form */
+.cancel-container {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+
+.cancel-container form {
+    margin-bottom: 0;
+}
+
+.cancel-container textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.cancel-container.show {
+    max-height: 500px;
+    opacity: 1;
+    padding: 1rem;
+}
+
+
+/* Modal Transitions */
+.modal.fade .modal-dialog {
+    transition: transform 0.2s ease-out;
+}
+
+.modal.fade:not(.show) .modal-dialog {
+    transform: translateY(-100px);
+}
+
+.modal.show .modal-dialog {
+    transform: none;
+}
+
+.modal-backdrop {
+    transition: opacity 0.2s linear;
+}
+
+.modal-content {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
