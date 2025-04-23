@@ -6,7 +6,7 @@ init_session();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kurizerk</title>
+    <title>JoJoBa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -18,7 +18,7 @@ init_session();
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-none d-md-flex gap-3">
                     <small><i class="bi bi-telephone"></i> (855) 097-868-4464</small>
-                    <small><i class="bi bi-envelope"></i> contact@kurizerk.com</small>
+                    <small><i class="bi bi-envelope"></i> contact@jojoba.com</small>
                 </div>
                 <div class="d-flex gap-3">
                     <small><i class="bi bi-truck"></i> Free delivery for all Order of $50</small>
@@ -33,7 +33,7 @@ init_session();
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
             <div class="container">
                 <a class="navbar-brand fw-bold fs-4" href="./">
-                    <span class="text-success">ku</span> ri <span class="text-primary">zerk</span>
+                    <span class="text-success">Jo</span> Jo <span class="text-primary">Ba</span>
                 </a>
 
                 <!-- Search Form -->

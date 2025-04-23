@@ -5,9 +5,9 @@ $database = new Database();
 $db = $database->getConnection();
 
 // Create super admin user
-$username = 'senghun';
+$username = 'hun';
 $password = '1205'; // Change this password after first login
-$email = 'senghun@gmail.com';
+$email = 'hun@gmail.com';
 $role = 'super_admin';
 
 // Hash the password

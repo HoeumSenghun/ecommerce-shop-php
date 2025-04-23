@@ -35,7 +35,7 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="/assets/images/hero-image.jpg" alt="Eco-friendly products" class="img-fluid rounded shadow">
+                <img src="./assets/images/rk keyboard.png" alt="Eco-friendly products" class="img-fluid rounded shadow">
             </div>
         </div>
     </div>
@@ -181,7 +181,7 @@ include 'includes/header.php';
                         <div class="d-flex align-items-center">
                             <i class="bi bi-person-circle fs-4 me-2"></i>
                             <div>
-                                <h6 class="mb-0">Sophea Chen</h6>
+                                <h6 class="mb-0">Hin Sokheng</h6>
                                 <small class="text-muted">Regular Customer</small>
                             </div>
                         </div>
@@ -202,7 +202,7 @@ include 'includes/header.php';
                         <div class="d-flex align-items-center">
                             <i class="bi bi-person-circle fs-4 me-2"></i>
                             <div>
-                                <h6 class="mb-0">Dara Sok</h6>
+                                <h6 class="mb-0">Y Mengsea</h6>
                                 <small class="text-muted">Verified Buyer</small>
                             </div>
                         </div>
@@ -223,7 +223,7 @@ include 'includes/header.php';
                         <div class="d-flex align-items-center">
                             <i class="bi bi-person-circle fs-4 me-2"></i>
                             <div>
-                                <h6 class="mb-0">Kunthea Pich</h6>
+                                <h6 class="mb-0">Sou Phalin</h6>
                                 <small class="text-muted">New Customer</small>
                             </div>
                         </div>
