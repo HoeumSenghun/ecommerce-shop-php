@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <h5>About Us</h5>
-                    <p>JoJoBa Shop provides high-quality food and drinks with a focus on eco-friendly and sustainable products.</p>
+                    <p>JoJoBa Shop provides high-quality Products with a focus on eco-friendly and sustainable products.</p>
                 </div>
                 <div class="col-md-4">
                     <h5>Quick Links</h5>

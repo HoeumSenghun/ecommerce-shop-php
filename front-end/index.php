@@ -28,7 +28,7 @@ include 'includes/header.php';
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h1 class="display-4 fw-bold">Welcome to <?= SITE_NAME ?></h1>
-                <p class="lead">Discover our eco-friendly food and drinks, sourced responsibly and delivered with care.</p>
+                <p class="lead">Discover our eco-friendly Products, sourced responsibly and delivered with care.</p>
                 <div class="d-flex gap-2">
                     <a href="../front-end/products.php" class="btn btn-primary btn-lg">Shop Now</a>
                     <a href="#about" class="btn btn-outline-primary btn-lg">Learn More</a>
@@ -240,14 +240,14 @@ include 'includes/header.php';
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="text-center">
-                    <i class="bi bi-leaf display-4 text-success"></i>
+                    <i class="bi bi-flower2 display-4 text-success"></i>
                     <h3 class="h5 mt-3">Eco-Friendly</h3>
                     <p>All our products are selected with environmental sustainability in mind.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="text-center">
-                    <i class="bi bi-heart display-4 text-danger"></i>
+                    <i class="bi bi-credit-card display-4 text-danger"></i>
                     <h3 class="h5 mt-3">Health-Conscious</h3>
                     <p>We prioritize your health with natural and organic options.</p>
                 </div>
